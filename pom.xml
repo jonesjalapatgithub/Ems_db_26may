@@ -258,13 +258,13 @@
 						<goals> <goal>instrument</goal> <goal>aggregate</goal> <goal>clover</goal> 
 						</goals> </execution> </executions> </plugin> -->
 
-					<!-- <plugin>
+					 <plugin>
 						<groupId>org.apache.tomcat.maven</groupId>
 						<artifactId>tomcat7-maven-plugin</artifactId>
 						<version>2.1</version>
 						<configuration>
 							<server>myserver</server>
-							<url>http://172.27.59.96:8080/manager/text</url>
+							<url>http://172.27.59.140:8083/manager/text</url>
 							<username>admin</username>
 							<password>admin</password>
 							<path>/EMS_Hibernate1</path>
@@ -292,7 +292,7 @@
 
 
 						</executions>
-					</plugin> -->
+					</plugin> 
 
 
 
